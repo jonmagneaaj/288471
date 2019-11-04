@@ -1,0 +1,68 @@
+/*Top section /w logo*/
+#top{
+    box-shadow: inset 0 0 0 100vw rgba(11,14,16,.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: flex-start; 
+    
+    position: relative;
+    z-index: 2;
+}
+
+/*The background youtube video*/
+#bg-video{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    pointer-events: 0;
+}
+
+/*Adjust video to fit diffrent aspect ratios*/
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+.logo{
+    max-width: 60rem;
+    padding: 0;
+}
+
+#countDown{
+    width: 60rem;
+   
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    text-align: center;
+
+    margin: 0rem;
+    padding-bottom: 0rem;
+}
+
+#countDates{
+    margin: 0rem;
+    padding-top: 0.5rem;
+
+    width: 65rem;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 2rem;
+
+    text-align: center;
+}
+#more{
+    animation: up-n-down 1s infinite linear ;
+}

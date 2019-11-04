@@ -1,0 +1,62 @@
+#dragons{
+    position: relative;
+    z-index: 2;
+}
+
+/*Overview over changes*/
+.dragon-center-text{
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+/*Images for dragons*/
+.dragon-container{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 5rem;
+}
+
+.dragon-container img{
+    width: 26.6rem;
+    height: 35rem;
+
+    object-fit: cover;
+}
+
+.dragon-fit{
+    object-position: 80% 0%;
+}
+
+/*Info about the dragons*/
+.dragon-grid{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 5rem;
+}
+
+.dragon-text{
+    width: 26.6rem;
+}
+
+/*Elder dragon*/
+#elder-dragon{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#elder-dragon img{
+    width: 60rem;
+    height: 33rem;
+
+    object-fit: cover;
+}
+
+/*Animation for all*/
+.fade-in-bottom .is-visible{
+    animation: fade-in-bottom 1.2s linear forwards;
+}

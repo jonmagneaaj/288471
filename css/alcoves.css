@@ -1,0 +1,28 @@
+/*Grid til bildene*/
+.alcove-grid{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 5rem;
+}
+
+/*Størrelse på bildene*/
+.image-large{
+    max-width: 60rem;
+}
+
+.fade-bottom .is-visible{
+    animation: fade-in-bottom 1.2s linear forwards;
+}
+
+.left-animation .is-visible{
+    animation: fade-in-left 2s linear forwards;
+}
+
+.right-animation .is-visible{
+    animation: fade-in-right 2s linear forwards;
+}
+
+.fade-in-animation .is-visible{
+    animation: fade-in 1.2s linear forwards;
+}

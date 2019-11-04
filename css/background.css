@@ -1,0 +1,94 @@
+body{
+    background-color: var(--darkBlue);
+
+}
+#smoke1{
+  height: 100vh;
+  position: fixed;
+
+  width: 100%;
+  opacity: 0.5;
+
+  z-index: -94;
+
+  background-image: url(../img/smoke.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: smoke 20s infinite linear;
+  animation-delay: -13s;
+}
+
+#smoke2{
+  height: 100vh;
+  position: fixed;
+
+  width: 100%;
+  opacity: 0.5;
+
+  z-index: -95;
+
+  background-image: url(../img/smoke.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: smoke 23s infinite linear;
+  animation-delay: -10s;
+}
+#smoke3{
+  height: 100vh;
+  position: fixed;
+
+  width: 100%;
+  opacity: 0.5;
+
+  z-index: -96;
+
+  background-image: url(../img/smoke.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: smoke 26s infinite linear;
+  animation-delay: -9s;
+}
+#smoke4{
+  height: 100vh;
+  position: fixed;
+
+  width: 100%;
+  opacity: 0.5;
+
+  z-index: -97;
+
+  background-image: url(../img/smoke.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: smoke 29s infinite linear;
+  animation-delay: -6s;
+}
+#smoke5{
+  height: 100vh;
+  position: fixed;
+
+  width: 100%;
+  opacity: 0.5;
+
+  z-index: -98;
+
+  background-image: url(../img/smoke.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: smoke 32s infinite linear;
+  animation-delay: -15s;
+}
+#smoke6{
+  height: 100vh;
+  position: fixed;
+
+  width: 100%;
+  opacity: 0.5;
+
+  z-index: -99;
+
+  background-image: url(../img/smoke.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: smoke 35s infinite linear;
+}

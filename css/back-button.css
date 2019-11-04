@@ -1,0 +1,28 @@
+#back-to-top{
+    display: none;
+    position: fixed;
+    background-color: var(--blue);
+
+    border: var(--yellow) 3px solid;
+    border-radius: 10rem;
+
+    height: 7rem;
+    width: 7rem;
+
+    z-index: 10;
+
+    bottom: 10rem;
+    right: 5rem;
+    text-align: center;
+}
+
+#back-to-top-arrow{
+    width: 3rem;
+}
+
+#back-to-top:hover{
+    border: #D6B967 3px solid;
+    box-shadow: 0px 0px 93px -15px rgba(214,185,103,0.58);
+    transform: scale(1.1);
+}
+

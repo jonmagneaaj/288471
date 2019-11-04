@@ -1,0 +1,164 @@
+:root {
+    /*Farge pallet*/
+    --darkBlue: #1D2329;
+    --blue: #1D95A9;
+    --lightBlue: #D2F9F6;
+    --yellow: #D6B967;
+
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/*Fjerning av margins*/
+body, html, * {
+    margin: 0;
+    font-family: 'friz', Arial, Helvetica, sans-serif;
+}
+
+/*farge classes*/
+.darkBlue{
+    color: var(--darkBlue);
+}
+
+.lightBlue{
+    color: var(--lightBlue);
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.yellow{
+    color: var(--yellow);
+}
+
+.yellow-border{
+    border: #D6B967 3px solid;
+}
+
+/*Padding*/
+.p4{
+    padding: 4rem;
+}
+
+.p1u{
+    padding-bottom: 1rem;
+}
+
+.p2u{
+    padding-bottom: 2rem;
+}
+.p2o{
+    padding-top: 2rem;
+}
+
+.p4u{
+    padding-bottom: 4rem;
+}
+.p4o{
+    padding-top: 4rem;
+}
+.p6u{
+    padding-bottom: 6rem;
+}
+
+.p6o{
+    padding-top: 6rem;
+}
+
+
+.fullscreen{
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+/*Text decorations*/
+.underline{
+    text-decoration: underline;
+}
+
+/*Tekst*/
+
+h1{
+    font-size: 7rem;
+    font-weight: QuadrataBold, 800;
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: QuadrataBold, 800;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: QuadrataBold, 800;
+}
+h4{
+    font-size: 2rem;
+    font-weight: QuadrataBold, 800;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: medium, 400;
+
+    line-height: 2.5rem;
+
+    color: var(--lightBlue);
+}
+li{
+    font-size: 2rem;
+    font-weight: QuadrataBold, 800;
+
+    color: var(--lightBlue);
+}
+
+strong{
+    color: var(--blue);
+    font-weight: 800;
+}
+
+.centered{
+    text-align: center;
+}
+
+.left-justify{
+    text-align: left;
+}
+
+/*black bars for overlay*/
+
+.black-bar-top{
+    width: 100%;
+    height: 5rem;
+
+    position: absolute;
+    top: 98vh;
+    background: linear-gradient(0deg, rgba(29,35,41,1) 0%, rgba(12,14,17,0.8729866946778712) 50%, rgba(29,35,41,0) 100%);
+}
+
+/*adds shadow*/
+
+.shadow{
+    text-shadow: 6px 5px 5px rgba(0,0,0,0.55);
+}
+
+.shadow-small{
+    text-shadow: 3px 2px 2px rgba(0,0,0,0.55);
+}
+
+.shadow-box{
+    box-shadow: 6px 5px 5px rgba(0,0,0,0.85);
+}
+
+.yellow-shadow{
+    box-shadow: 0px 0px 93px -15px rgba(214,185,103,0.58);
+}
+/*images*/
+
+.image-center{
+    display: block;
+    margin-left: 60%;
+    margin-right: 40%;
+    width: 50%;
+}

@@ -1,0 +1,86 @@
+/*Selve artikkelen*/
+#overview{
+    position: relative;
+}
+
+/*boksene med innhold*/
+.overview-box{
+    border: 3px var(--blue) solid;
+    width: 45rem;
+    height: 25rem;
+
+    position: relative;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--darkBlue);
+    text-decoration: none;
+    opacity: 0;
+
+ 
+}
+.overview-box .yellow{
+    text-align: center;
+}
+
+.overview-box:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 93px -15px rgba(214,185,103,0.58);
+    border: 3px var(--yellow) solid;
+}
+
+/*Animasjoner, slider inn med fade*/
+.left-grid .is-visible{
+    animation: fade-in-left 1.2s linear forwards;
+}
+
+.right-grid .is-visible{
+    animation: fade-in-right 1.2s linear forwards;
+}
+
+/*Venstre Grid*/
+.left-grid{
+
+    top: 0px; 
+
+    float: left;
+    padding-top: 2rem;
+    padding-left: 20rem;
+
+    z-index: 2;
+   
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(2 50rem);
+    grid-gap: 9rem;
+
+    justify-content: start;
+
+    max-width: 55rem;
+}
+
+/*Høydre gridd*/
+.right-grid{
+
+    padding-top: 13rem;
+    padding-right: 20rem;
+    float: right;
+
+    z-index: 2;
+    
+
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(2 50rem);
+    grid-gap: 9rem;
+
+    justify-content: end;
+
+    max-width: 55rem;
+}
+
+/*Animasjoner*/
