@@ -1,5 +1,5 @@
 // Sett datoen som en teller ned fra
-const countDownDate = new Date("June 13, 2020 17:00:00").getTime();
+const countDownDate = new Date("Nov 13, 2020 17:00:00").getTime();
 const countDates = document.querySelector("#countDates");
 const countStart = document.querySelector("#countStart");
 
