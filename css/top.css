@@ -10,6 +10,8 @@
     
     position: relative;
     z-index: 2;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 /*The background youtube video*/
